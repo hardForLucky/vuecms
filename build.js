@@ -44001,7 +44001,7 @@
 	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
 	  }, [_c('a', {
 	    attrs: {
-	      "href": "#"
+	      "href": "https://hardforlucky.github.io/video/"
 	    }
 	  }, [_c('span', {
 	    staticClass: "mui-icon  mui-icon-info"
