@@ -45589,7 +45589,8 @@
 	    data: function data() {
 	        return {
 	            comments: [], //用来存放当前数据的评论信息列表
-	            pageindex: 1 //这是获取评论的页码，默认为第1页
+	            pageindex: 1, //这是获取评论的页码，默认为第1页
+	            isShow: true
 	        };
 	    },
 	    created: function created() {
@@ -45616,8 +45617,9 @@
 	                (0, _mintUi.Toast)('评论提交成功');
 
 	                //重新加载评论
+	                _this.pageindex = 1;
 	                _this.getcomment(_this.pageindex, true);
-
+	                _this.isShow = true;
 	                //清空文本空中的值
 	                _this.$refs.postcontent.value = '';
 	            }, function (res) {
@@ -45638,6 +45640,11 @@
 	                if (isreload) {
 	                    _this2.comments = res.body.message;
 	                } else {
+	                    if (!res.body.message.length) {
+	                        (0, _mintUi.Toast)('已经没有更多评论了');
+	                        _this2.isShow = false;
+	                        return;
+	                    }
 	                    //这是给加载跟多使用的
 	                    _this2.comments = _this2.comments.concat(res.body.message);
 	                }
@@ -45703,6 +45710,12 @@
 	      staticClass: "time"
 	    }, [_vm._v(_vm._s(_vm._f("fmtdate")(item.add_time, 'YYYY-MM-DD HH:mm:ss')))])])
 	  })), _vm._v(" "), _c('mt-button', {
+	    directives: [{
+	      name: "show",
+	      rawName: "v-show",
+	      value: (_vm.isShow),
+	      expression: "isShow"
+	    }],
 	    staticClass: "more",
 	    attrs: {
 	      "type": "danger",
