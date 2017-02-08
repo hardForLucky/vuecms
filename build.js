@@ -43598,7 +43598,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/*\r\n定义9宫格中的图片样式\r\n */\n.mui-content[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\n}\n.mui-grid-view.mui-grid-9[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\r\n\tborder-top:none;\r\n\tborder-left:none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-aace2d7e]\r\n{\r\n\tborder-right:none;\r\n\tborder-bottom:none;\n}\n.mui-icon[data-v-aace2d7e]{\r\n\twidth: 50px;\r\n\theight: 50px;\n}\n.mui-icon-home[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(201) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-navigate[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(202) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-gear[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(203) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-paperplane[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(204) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-info[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(205) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-help[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(206) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-home[data-v-aace2d7e]:before,\r\n.mui-icon-navigate[data-v-aace2d7e]:before,\r\n.mui-icon-gear[data-v-aace2d7e]:before,\r\n.mui-icon-paperplane[data-v-aace2d7e]:before,\r\n.mui-icon-info[data-v-aace2d7e]:before,\r\n.mui-icon-help[data-v-aace2d7e]:before{\r\n\tcontent: '';\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/*\r\n定义9宫格中的图片样式\r\n */\n.mui-content[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\n}\n.mui-grid-view.mui-grid-9[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\r\n\tborder-top:none;\r\n\tborder-left:none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-aace2d7e]\r\n{\r\n\tborder-right:none;\r\n\tborder-bottom:none;\n}\n.mui-icon[data-v-aace2d7e]{\r\n\twidth: 50px;\r\n\theight: 50px;\n}\n.mui-icon-home[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(201) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-navigate[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(202) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-gear[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(203) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-paperplane[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(204) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-info[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(205) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-help[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(206) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-home[data-v-aace2d7e]:before,\r\n.mui-icon-navigate[data-v-aace2d7e]:before,\r\n.mui-icon-gear[data-v-aace2d7e]:before,\r\n.mui-icon-paperplane[data-v-aace2d7e]:before,\r\n.mui-icon-info[data-v-aace2d7e]:before,\r\n.mui-icon-help[data-v-aace2d7e]:before{\r\n\tcontent: '';\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
 
 	// exports
 
@@ -43649,6 +43649,8 @@
 		value: true
 	});
 
+	var _mintUi = __webpack_require__(14);
+
 	var _subimgsilder = __webpack_require__(208);
 
 	var _subimgsilder2 = _interopRequireDefault(_subimgsilder);
@@ -43659,7 +43661,44 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	//
+	exports.default = {
+		data: function data() {
+			return {
+				// list: [{
+				// 			url: 'http://www.itcast.cn/subject/phoneweb/index.html',
+				// 			img: 'http://ofv795nmp.bkt.clouddn.com/vuelogobanner1.jpg'
+				// 		}, {
+				// 			url: 'http://www.itcast.cn/subject/phoneweb/index.html',
+				// 			img: 'http://ofv795nmp.bkt.clouddn.com/vuelogobanner2-1.jpg'
+				// 		}]
+
+				list: []
+			};
+		},
+		created: function created() {
+			this.getlunbo(); //当home.vue组件创建完毕以后，调用数据请求
+		},
+
+		methods: {
+			getlunbo: function getlunbo() {
+				var _this = this;
+
+				var url = _common2.default.apihost + '/api/getlunbo';
+				this.$http.get(url).then(function (res) {
+					//成功则将res.body.message中的数据赋值给this.list属性即可
+					_this.list = res.body.message;
+				}, function (res) {
+					console.log('轮播图获取失败');
+				});
+			},
+			tip: function tip() {
+				(0, _mintUi.Toast)('该区域还在研发中，请耐心等待...');
+			}
+		},
+		components: {
+			subimgsilder: _subimgsilder2.default
+		}
+	}; //
 	//
 	//
 	//
@@ -43711,41 +43750,6 @@
 	//
 
 	//1.0 导入 subimgsilder.vue组件
-	exports.default = {
-		data: function data() {
-			return {
-				// list: [{
-				// 			url: 'http://www.itcast.cn/subject/phoneweb/index.html',
-				// 			img: 'http://ofv795nmp.bkt.clouddn.com/vuelogobanner1.jpg'
-				// 		}, {
-				// 			url: 'http://www.itcast.cn/subject/phoneweb/index.html',
-				// 			img: 'http://ofv795nmp.bkt.clouddn.com/vuelogobanner2-1.jpg'
-				// 		}]
-
-				list: []
-			};
-		},
-		created: function created() {
-			this.getlunbo(); //当home.vue组件创建完毕以后，调用数据请求
-		},
-
-		methods: {
-			getlunbo: function getlunbo() {
-				var _this = this;
-
-				var url = _common2.default.apihost + '/api/getlunbo';
-				this.$http.get(url).then(function (res) {
-					//成功则将res.body.message中的数据赋值给this.list属性即可
-					_this.list = res.body.message;
-				}, function (res) {
-					console.log('轮播图获取失败');
-				});
-			}
-		},
-		components: {
-			subimgsilder: _subimgsilder2.default
-		}
-	};
 
 /***/ },
 /* 208 */
@@ -43983,20 +43987,34 @@
 	    staticClass: "mui-icon mui-icon-gear"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("商品购买")])])], 1), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2)])])], 1)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('li', {
+	  }, [_vm._v("商品购买")])])], 1), _vm._v(" "), _c('li', {
 	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
 	  }, [_c('a', {
 	    attrs: {
-	      "href": "#"
+	      "href": "javascript:void(0);"
+	    },
+	    on: {
+	      "click": _vm.tip
 	    }
 	  }, [_c('span', {
 	    staticClass: "mui-icon mui-icon-paperplane"
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
-	  }, [_vm._v("留言反馈")])])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  }, [_vm._v("留言反馈")])])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('li', {
+	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
+	  }, [_c('a', {
+	    attrs: {
+	      "href": "javascript:void(0);"
+	    },
+	    on: {
+	      "click": _vm.tip
+	    }
+	  }, [_c('span', {
+	    staticClass: "mui-icon  mui-icon-help"
+	  }), _vm._v(" "), _c('div', {
+	    staticClass: "mui-media-body"
+	  }, [_vm._v("联系我们")])])])])])], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('li', {
 	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
 	  }, [_c('a', {
@@ -44008,18 +44026,6 @@
 	  }), _vm._v(" "), _c('div', {
 	    staticClass: "mui-media-body"
 	  }, [_vm._v("视频专区")])])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('li', {
-	    staticClass: "mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"
-	  }, [_c('a', {
-	    attrs: {
-	      "href": "#"
-	    }
-	  }, [_c('span', {
-	    staticClass: "mui-icon  mui-icon-help"
-	  }), _vm._v(" "), _c('div', {
-	    staticClass: "mui-media-body"
-	  }, [_vm._v("联系我们")])])])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {
