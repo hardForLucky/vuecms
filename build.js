@@ -22401,7 +22401,7 @@
 
 
 	// module
-	exports.push([module.id, "body{\r\n\tbackground-color: #fff;\r\n\tfont-size: 12px;\r\n}\r\n\r\n.app .tmpl{\r\n\tmargin-top:42px;\r\n\tmargin-bottom: 50px;\r\n}\r\n", ""]);
+	exports.push([module.id, "body{\r\n\tbackground-color: #fff;\r\n\tfont-size: 12px;\r\n}\r\n\r\n.app .tmpl{\r\n\tmargin-top:40px;\r\n\tmargin-bottom: 50px;\r\n}\r\n", ""]);
 
 	// exports
 
@@ -43172,7 +43172,7 @@
 
 
 	// module
-	exports.push([module.id, "\n.back{\n\tposition: fixed;\n\ttop:10px;\n\tleft:10px;\n\tz-index: 50;\n}\n.back a{\n\tfont-size: 16px;\n\tcolor: #fff;\n\tfont-weight:bold;\n}\n.mint-header h1.mint-header-title {\n\tflex: none;\n\tfont-size: 16px;\n\tline-height: 18px;\n}\nheader.mint-header {\n\tbackground-color: #F8404E;\n}\n", ""]);
+	exports.push([module.id, "\n.back{\n\tposition: fixed;\n\ttop:10px;\n\tleft:10px;\n\tz-index: 50;\n}\n.back a{\n\tfont-size: 16px;\n\tcolor: #fff;\n\tfont-weight:bold;\n}\n.mint-header h1.mint-header-title {\n\tflex: none;\n\tfont-size: 16px;\n\tline-height: 18px;\n}\nheader.mint-header {\n\t/* background-color: #F8404E; */\n}\n", ""]);
 
 	// exports
 
@@ -43492,7 +43492,7 @@
 	    staticClass: "mui-icon mui-icon-contact"
 	  }), _vm._v(" "), _c('span', {
 	    staticClass: "mui-tab-label"
-	  }, [_vm._v("会员")])]), _vm._v(" "), _c('router-link', {
+	  }, [_vm._v("会员中心")])]), _vm._v(" "), _c('router-link', {
 	    staticClass: "mui-tab-item",
 	    attrs: {
 	      "to": "/shopcar"
