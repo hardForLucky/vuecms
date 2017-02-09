@@ -43304,7 +43304,7 @@
 	 * */
 	exports.default = {
 	    // apihost:'http://localhost:8899',  //这个是数据api的域名
-	    apihost: 'http://video.ittun.com', //这个是数据api的域名
+	    apihost: 'https://video.ittun.com', //这个是数据api的域名
 	    imghost: 'http://ofv795nmp.bkt.clouddn.com/', //图片的存储云服务器域名（7牛云）
 	    home: 'vue框架+mint-ui+mui技术栈搭建的内容管理系统',
 	    member: '会员中心',
@@ -43598,7 +43598,7 @@
 
 
 	// module
-	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/*\r\n定义9宫格中的图片样式\r\n */\n.mui-content[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\n}\n.mui-grid-view.mui-grid-9[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\r\n\tborder-top:none;\r\n\tborder-left:none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-aace2d7e]\r\n{\r\n\tborder-right:none;\r\n\tborder-bottom:none;\n}\n.mui-icon[data-v-aace2d7e]{\r\n\twidth: 50px;\r\n\theight: 50px;\n}\n.mui-icon-home[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(201) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-navigate[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(202) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-gear[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(203) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-paperplane[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(204) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-info[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(205) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-help[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(206) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-home[data-v-aace2d7e]:before,\r\n.mui-icon-navigate[data-v-aace2d7e]:before,\r\n.mui-icon-gear[data-v-aace2d7e]:before,\r\n.mui-icon-paperplane[data-v-aace2d7e]:before,\r\n.mui-icon-info[data-v-aace2d7e]:before,\r\n.mui-icon-help[data-v-aace2d7e]:before{\r\n\tcontent: '';\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
+	exports.push([module.id, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n\r\n/*\r\n定义9宫格中的图片样式\r\n */\n.mui-content[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\n}\n.mui-grid-view.mui-grid-9[data-v-aace2d7e]{\r\n\tbackground-color: #fff;\r\n\tborder-top:none;\r\n\tborder-left:none;\n}\n.mui-grid-view.mui-grid-9 .mui-table-view-cell[data-v-aace2d7e]\r\n{\r\n\tborder-right:none;\r\n\tborder-bottom:none;\n}\n.mui-icon[data-v-aace2d7e]{\r\n\twidth: 50px;\r\n\theight: 50px;\n}\n.mui-icon-home[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(201) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-navigate[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(202) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-gear[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(203) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-paperplane[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(204) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-info[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(205) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-help[data-v-aace2d7e]{\r\n\tbackground-image: url(" + __webpack_require__(206) + ");\r\n\tbackground-repeat: round;\n}\n.mui-icon-home[data-v-aace2d7e]:before,\r\n.mui-icon-navigate[data-v-aace2d7e]:before,\r\n.mui-icon-gear[data-v-aace2d7e]:before,\r\n.mui-icon-paperplane[data-v-aace2d7e]:before,\r\n.mui-icon-info[data-v-aace2d7e]:before,\r\n.mui-icon-help[data-v-aace2d7e]:before{\r\n\tcontent: '';\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n", ""]);
 
 	// exports
 
@@ -43689,6 +43689,7 @@
 					_this.list = res.body.message;
 				}, function (res) {
 					console.log('轮播图获取失败');
+					(0, _mintUi.Toast)('服务器关了，请联系主人开启哦~');
 				});
 			},
 			tip: function tip() {
@@ -46781,6 +46782,9 @@
 	        afterEnter: function afterEnter(el) {
 	            //表示小球的动画结束状态,要将控制小球显示和隐藏的变量isshow复位
 	            this.isshow = !this.isshow;
+	        },
+	        goshopcar: function goshopcar() {
+	            this.$router.push({ name: 'shopcar' });
 	        }
 	    },
 	    components: {
@@ -46949,6 +46953,9 @@
 	    attrs: {
 	      "type": "primary",
 	      "size": "small"
+	    },
+	    on: {
+	      "click": _vm.goshopcar
 	    }
 	  }, [_vm._v("立即购买")]), _vm._v(" "), _c('mt-button', {
 	    attrs: {
